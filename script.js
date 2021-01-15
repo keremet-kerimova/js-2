@@ -86,9 +86,9 @@
 //  console.log(`${p}`);
  
 
-let q =+prompt('What is Q1?');
-let q2 =+prompt('What is Q2?');
-let q3 =+prompt('What is Q3?');
-let  f = Q1*Q2/Q3*100;
+let q = +prompt('What is Q1?');
+let q2 = +prompt('What is Q2?');
+let q3 = +prompt('What is Q3?');
+let  f = q+q2+q3/3;
 
 console.log(`${f}`);
