@@ -84,7 +84,6 @@
 
 
 //  console.log(`${p}`);
- 
 
 let q = +prompt('What is Q1?');
 let q2 = +prompt('What is Q2?');
