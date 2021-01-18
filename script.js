@@ -85,9 +85,30 @@
 
 //  console.log(`${p}`);
 
-let q = +prompt('What is Q1?');
-let q2 = +prompt('What is Q2?');
-let q3 = +prompt('What is Q3?');
-let  f = q+q2+q3/3;
+// let q = +prompt('What is Q1?');
+// let q2 = +prompt('What is Q2?');
+// let q3 = +prompt('What is Q3?');
+// let  f = q*q2*q3/3;
 
-console.log(`${f}`);
+// console.log(`${f}`);
+ 
+// let s = +prompt('What is S?');
+// let r = +prompt('What is R?');
+// let y = +prompt('What is Y?');
+// let h = s * r * y/3 ;
+
+
+// console.log(`${h}`);
+
+
+// let s = +prompt('What is S?');
+// let r = +prompt('What is R?');
+// let y = +prompt('What is Y?');
+//  let h = s / 100 * r /100  * y /100 ;
+
+//  console.log(`${h}`);
+
+
+
+
+l
