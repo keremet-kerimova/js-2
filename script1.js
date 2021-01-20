@@ -45,7 +45,7 @@ let example = 1;
 
  let a = prompt("How many dollars do you have?");
  let b = prompt("What is dollar exchange rate?");
-  let c= parseFloat(a)* parseFloat(b);
+let c= parseFloat(a)* parseFloat(b);
 
 
   alert("tou have "+ c + "soms!")
