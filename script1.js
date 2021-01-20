@@ -141,10 +141,70 @@
 
 
 
-let a = prompt("What is A");
-if (a){
-    console.log("A squared eqguals to" + (a ** 2));
-}
-if (!a) {
-console.log("A not entered");
-}
+// let a = prompt("What is A");
+// if (a){
+//     let isNamber = isNamber(a);
+//     if (isNotNumber) {
+//         console.log("A is not  a number")
+//     }
+//     else{}
+//     console.log("A squared eqguals to" + (a ** 2));
+// }
+// if (!a) {
+// console.log("A not entered");
+// }
+
+
+// const KG_YEAR = 1991
+// let year  = prompt("Independence Day ?");
+//      if  (year < KG_YEAR){
+//          console.log("no");
+//      }
+//      else if (year > KG_YEAR){
+//          console.log("you didn't  guess");
+//      }
+//      else{
+//          console.log("Exactly")
+//      }
+
+
+
+// let a = +prompt ("A");
+// let b = +prompt ("B");
+// let c = a % b;
+// if (c != 0){
+//     console.log("A id divided by B with a remaninder");
+// }
+// else  {
+//     console.log("A is divided by B without  a remainder")
+// }
+
+ 
+// let a = prompt ("A");
+// let b = prompt ("B");
+// if (a > b){
+//     console.log("A is bigger than B ")
+// }
+// else if ( a < b) {
+//     console.log( "A is smaller than B");
+// }
+// else {
+// console.log("true")
+// }
+// const Formula = a ** 2 =b;
+// let a = prompt ("A");
+// let b = prompt ("B");
+// let c = a ** (1/2);
+// if ( c == b){
+//     console.log("True")
+// }
+// else {
+//     console.log("False")
+// }
+
+
+
+
+
+
+let  r
