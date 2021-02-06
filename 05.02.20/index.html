@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>JavaScript styling</h1>
+    <ul>
+        <li><button id="example1"  onclick="example()">Example</button></li>
+        <li><button id="example2">Example</button></li>
+        <li><button id="example3">Example</button></li>
+        <li><button id="example4">Example</button></li>
+        <li><button id="example5">Example</button></li>
+    </ul>
+ -->
+
+    <script>
+        let h1 = document.createElement('h1');
+        h1.innerText = "JavaScript Styling";
+        document.body.append(h1);
+
+
+
+        let ul = document.createElement('ul');
+        for (let i = 1; i<= 5; i++){
+            let li = document.createElement('li');
+            let button = document.createElement('button');
+            button.innerText = "Example " + "#"+ i;
+            button.id = "example" + i;
+
+            li.append(button);
+            ul.append(li);
+        }
+        document.body.append(ul);
+
+
+
+        let example1 = document.querySelector('#example1');
+        example1.style.backgroundColor = "white"
+        example2.style.boder = " 4px  solid red";
+        example1.style.paddingTop = "20px"
+        example1.style.paddingBottom = "20px"
+        example1.style.paddingRight = "20px"
+        example1.style.paddingLeft = "20px"
+        
+
+        let example3 = document.querySelector('#example2');
+        example2.style.backgroundColor = "pink"
+        example3.style.boder = " 4px  solid red";
+        example2.style.paddingTop = "20px"
+        example2.style.paddingBottom = "20px"
+        example2.style.paddingRight = "20px"
+        example2.style.paddingLeft = "20px"
+        example2.style.marginTop = "20px"
+        
+
+        let example4 = document.querySelector('#example3');
+        example4.style.marginTop = "20px"
+        example4.style.border = " 4px dashed red"
+        example4.style.backgroundColor = "white"
+        example4.style.paddingTop = "20px"
+        example4.style.paddingBottom = "20px"
+        example4.style.paddingRight = "20px"
+        example4.style.paddingLeft = "20px"
+
+
+        let example5 = document.querySelector('#example4');
+        example5.style.marginTop = "20px"
+        example5.style.border = " 4px dotted green"
+        example5.style.backgroundColor = "white"
+        example5.style.paddingTop = "20px"
+        example5.style.paddingBottom = "20px"
+        example5.style.paddingRight = "20px"
+        example5.style.paddingLeft = "20px"
+
+
+
+
+
+ example4.querySelector('#example4').onclick = function(){
+            this.style.backgroundColor ="red";
+            alert('#example4').style.backgroundColor ="red";
+        };
+
+
+        // let example1 = document.querySelector('#example2');
+        // example2.style.backgroundColor = "pink"
+
+        // example1.className = "hello-world";
+//         // example1.className += "fancy-button"
+//   example1.onclick = example;
+
+
+ example1.addEventListener('click', example);
+ example1.addEventListener('click', function(){
+     alert("Clicked");
+ });
+
+ example1.addEventListener('click', () =>alert("Cliked"));
+ example1.addEventListener('click', function(){
+     alert("Clicked");
+ });
+
+
+  function example (){
+      alert("CLiked!");
+  }
+
+
+        
+    </script>
+</body>
+</html>
